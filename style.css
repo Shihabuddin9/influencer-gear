@@ -153,7 +153,6 @@ body{
     height: 256px;
     border-radius: 5px;
     margin-top: 15px;
-
 }
 .view-feature h3{
     font-size: 28px;
@@ -180,6 +179,45 @@ body{
     display: block;
     margin-right: 100px;
     color: #1B98F5;
+    font-size: 15px;
+    font-weight: 700;
+}
+/*--------------------------------
+      section for imac mock-up
+ --------------------------------- */
+.imac-mockup{
+    display: flex;
+    margin-top: 50px;   
+}
+.imac-mockup .imac-img{
+    margin-left: 104px;
+}
+.imac-mockup .imac-img img{
+    width: 650px;
+    height: 504px;
+}
+.imac{
+    margin-top: 106px;
+    margin-left: 133px;
+}
+.imac h2{
+    color: #B9345A;
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imac p{
+    color: #5DA3FA;
+    font-size: 24px;
+    margin-bottom: 83px;
+}
+.imac a{
+    width: 196px;
+    height: 44px;
+    text-decoration: none;
+    background-color: #1B98F5;
+    Padding: 10px 24px 10px 24px;
+    border-radius: 41px;
+    color: #FFFFFF;
     font-size: 15px;
     font-weight: 700;
 }
