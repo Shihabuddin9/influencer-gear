@@ -262,3 +262,74 @@ body{
     margin-top: 25px;
     margin-left: 16px;
 }
+
+/*------------------------
+     responsive start
+------------------------- */
+@media (max-width:360px){
+    .influencer .logo h3{
+        font-size: 23px;
+        margin-left: 60px;
+        margin-top: 15px;
+    }
+    .influencer .navbar{
+        display: none;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+    .first-section .left-part h1{
+        font-size: 17px; 
+        margin-left: -85px; 
+        margin-top: -60px;     
+    }
+    .first-section .left-part p{
+        margin-left: -85px;
+        font-size: 10px;
+        margin-top: -6px;
+        width: 300px;   
+    }
+    .first-section .left-part a{
+        margin-left: -85px;
+    }
+    .first-section .right-part-img img{
+        width: 250px;
+        height: 250px;
+        background-image: none;
+        margin-left: 50px;
+        margin-top: -110px;
+    }
+    .logos{
+        display: none;
+    }
+    .main-container{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .main-container .container .bac-feature{
+        margin-right: 0px;
+    }
+    .imac-mockup{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imac-mockup .imac-img{
+        margin-left: 0px;
+    }
+    .imac-mockup .imac-img img{
+        width: 350px;
+        height: 200px;
+    }
+    .imac-mockup .imac{
+        margin-top: 30px;
+        margin-left: 28px;
+    }
+    .imac-mockup .imac p{
+        margin-bottom: 30px;
+    }
+    .main-footer .footer{
+        margin-left: 40px;
+    }
+}
